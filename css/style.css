@@ -1,0 +1,60 @@
+.container1 {
+  display: flex;
+  justify-content: center;
+  background-color: #e4f9f5;
+  background-image: url("../assets/web-1935737_1280.png");
+  background-size: 100% 100% ;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.intro {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #e4f9f5;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.lead {
+  padding-top: 20px;
+}
+
+.container3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 1fr;
+  height: 100vh;
+}
+
+.title {
+  grid-column: 1 / span 2;
+  text-align: center;
+}
+
+.img1 {
+  text-align: right;
+  padding-right: 50px;
+}
+
+.skill1 {
+}
+
+.img2 {
+  text-align: right;
+  padding-right: 50px;
+}
+
+.container5 {
+  background-color: #66bfbf;
+}
+
+
+
+
